@@ -1,0 +1,13 @@
+[
+  { "id": "st_beijing_south", "name": "北京南", "city": "北京" },
+  { "id": "st_langfang", "name": "廊坊", "city": "廊坊" },
+  { "id": "st_tianjin_south", "name": "天津南", "city": "天津" },
+  { "id": "st_jinan_west", "name": "济南西", "city": "济南" },
+  { "id": "st_xuzhou_east", "name": "徐州东", "city": "徐州" },
+  { "id": "st_nanjing_south", "name": "南京南", "city": "南京" },
+  { "id": "st_zhenjiang_south", "name": "镇江南", "city": "镇江" },
+  { "id": "st_changzhou_north", "name": "常州北", "city": "常州" },
+  { "id": "st_wuxi_east", "name": "无锡东", "city": "无锡" },
+  { "id": "st_suzhou_north", "name": "苏州北", "city": "苏州" },
+  { "id": "st_shanghai_hongqiao", "name": "上海虹桥", "city": "上海" }
+]

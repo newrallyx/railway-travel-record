@@ -1,0 +1,82 @@
+[
+  {
+    "id": "trip_001",
+    "title": "北京南到济南西",
+    "mode": "manual",
+    "createdAt": "2026-03-01T10:10:00.000Z",
+    "updatedAt": "2026-03-01T10:10:00.000Z",
+    "travelDate": "2026-02-18",
+    "note": "出差",
+    "trainNumber": "G103",
+    "tripSegments": [
+      {
+        "id": "trip_seg_001",
+        "tripId": "trip_001",
+        "lineId": "ln_beijing_shanghai_hsr",
+        "fromStationId": "st_beijing_south",
+        "toStationId": "st_jinan_west",
+        "trainNumber": "G103",
+        "travelDate": "2026-02-18",
+        "note": "早班车",
+        "segmentIds": ["seg_jh_001", "seg_jh_002", "seg_jh_003"]
+      }
+    ]
+  },
+  {
+    "id": "trip_002",
+    "title": "济南西到南京南",
+    "mode": "preset",
+    "createdAt": "2026-03-05T08:00:00.000Z",
+    "updatedAt": "2026-03-05T08:00:00.000Z",
+    "travelDate": "2026-03-04",
+    "note": "探亲",
+    "trainNumber": "G257",
+    "tripSegments": [
+      {
+        "id": "trip_seg_002",
+        "tripId": "trip_002",
+        "lineId": "ln_beijing_shanghai_hsr",
+        "fromStationId": "st_jinan_west",
+        "toStationId": "st_nanjing_south",
+        "trainNumber": "G257",
+        "travelDate": "2026-03-04",
+        "note": "",
+        "segmentIds": ["seg_jh_004", "seg_jh_005"]
+      }
+    ]
+  },
+  {
+    "id": "trip_003",
+    "title": "南京南到无锡东",
+    "mode": "preset",
+    "createdAt": "2026-03-09T09:30:00.000Z",
+    "updatedAt": "2026-03-09T09:30:00.000Z",
+    "travelDate": "2026-03-09",
+    "note": "周末出行",
+    "trainNumber": "D221",
+    "tripSegments": [
+      {
+        "id": "trip_seg_003",
+        "tripId": "trip_003",
+        "lineId": "ln_ningzhen",
+        "fromStationId": "st_nanjing_south",
+        "toStationId": "st_changzhou_north",
+        "trainNumber": "D221",
+        "travelDate": "2026-03-09",
+        "note": "",
+        "segmentIds": ["seg_nz_001", "seg_nz_002"]
+      },
+      {
+        "id": "trip_seg_004",
+        "tripId": "trip_003",
+        "lineId": "ln_huning",
+        "fromStationId": "st_changzhou_north",
+        "toStationId": "st_wuxi_east",
+        "trainNumber": "D221",
+        "travelDate": "2026-03-09",
+        "note": "",
+        "segmentIds": ["seg_hn_001"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "seg_jh_001",
+    "lineId": "ln_beijing_shanghai_hsr",
+    "fromStationId": "st_beijing_south",
+    "toStationId": "st_langfang",
+    "coordinates": [[116.378, 39.865], [116.95, 39.52]],
+    "distanceKm": 55,
+    "sequence": 1
+  },
+  {
+    "id": "seg_jh_002",
+    "lineId": "ln_beijing_shanghai_hsr",
+    "fromStationId": "st_langfang",
+    "toStationId": "st_tianjin_south",
+    "coordinates": [[116.95, 39.52], [117.27, 39.06]],
+    "distanceKm": 45,
+    "sequence": 2
+  },
+  {
+    "id": "seg_jh_003",
+    "lineId": "ln_beijing_shanghai_hsr",
+    "fromStationId": "st_tianjin_south",
+    "toStationId": "st_jinan_west",
+    "coordinates": [[117.27, 39.06], [116.99, 36.65]],
+    "distanceKm": 290,
+    "sequence": 3
+  },
+  {
+    "id": "seg_jh_004",
+    "lineId": "ln_beijing_shanghai_hsr",
+    "fromStationId": "st_jinan_west",
+    "toStationId": "st_xuzhou_east",
+    "coordinates": [[116.99, 36.65], [117.29, 34.27]],
+    "distanceKm": 260,
+    "sequence": 4
+  },
+  {
+    "id": "seg_jh_005",
+    "lineId": "ln_beijing_shanghai_hsr",
+    "fromStationId": "st_xuzhou_east",
+    "toStationId": "st_nanjing_south",
+    "coordinates": [[117.29, 34.27], [118.8, 31.98]],
+    "distanceKm": 280,
+    "sequence": 5
+  },
+  {
+    "id": "seg_nz_001",
+    "lineId": "ln_ningzhen",
+    "fromStationId": "st_nanjing_south",
+    "toStationId": "st_zhenjiang_south",
+    "coordinates": [[118.8, 31.98], [119.47, 32.2]],
+    "distanceKm": 70,
+    "sequence": 1
+  },
+  {
+    "id": "seg_nz_002",
+    "lineId": "ln_ningzhen",
+    "fromStationId": "st_zhenjiang_south",
+    "toStationId": "st_changzhou_north",
+    "coordinates": [[119.47, 32.2], [119.97, 31.86]],
+    "distanceKm": 65,
+    "sequence": 2
+  },
+  {
+    "id": "seg_hn_001",
+    "lineId": "ln_huning",
+    "fromStationId": "st_changzhou_north",
+    "toStationId": "st_wuxi_east",
+    "coordinates": [[119.97, 31.86], [120.46, 31.59]],
+    "distanceKm": 40,
+    "sequence": 1
+  },
+  {
+    "id": "seg_hn_002",
+    "lineId": "ln_huning",
+    "fromStationId": "st_wuxi_east",
+    "toStationId": "st_suzhou_north",
+    "coordinates": [[120.46, 31.59], [120.64, 31.42]],
+    "distanceKm": 25,
+    "sequence": 2
+  },
+  {
+    "id": "seg_hn_003",
+    "lineId": "ln_huning",
+    "fromStationId": "st_suzhou_north",
+    "toStationId": "st_shanghai_hongqiao",
+    "coordinates": [[120.64, 31.42], [121.32, 31.19]],
+    "distanceKm": 70,
+    "sequence": 3
+  }
+]
