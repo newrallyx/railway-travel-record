@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "line_jinghu",
+    "name": "京沪高铁",
+    "code": "JH-HSR",
+    "color": "#dc2626",
+    "stationIds": [
+      "st_beijingnan",
+      "st_langfang",
+      "st_tianjinnan",
+      "st_jinanxi",
+      "st_xuzhoudong",
+      "st_nanjingnan",
+      "st_changzhoubei",
+      "st_suzhoubei",
+      "st_shanghaihq"
+    ]
+  },
+  {
+    "id": "line_huhang",
+    "name": "沪杭高铁",
+    "code": "HH-HSR",
+    "color": "#2563eb",
+    "stationIds": ["st_shanghaihq", "st_hangzhoudong"]
+  },
+  {
+    "id": "line_guangshen",
+    "name": "广深港高铁（示例段）",
+    "code": "GSG-HSR",
+    "color": "#059669",
+    "stationIds": ["st_guangzhounan", "st_shenzhennorth"]
+  }
+]
