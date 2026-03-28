@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "trip_001",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_beijingnan",
+    "toStationId": "st_tianjinnan",
+    "trainNumber": "G101",
+    "travelDate": "2026-02-11",
+    "note": "商务出行，准点。",
+    "segmentIds": ["seg_jh_01", "seg_jh_02"],
+    "createdAt": "2026-02-10T08:00:00.000Z",
+    "updatedAt": "2026-02-10T08:00:00.000Z"
+  },
+  {
+    "id": "trip_002",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_jinanxi",
+    "toStationId": "st_nanjingnan",
+    "trainNumber": "G119",
+    "travelDate": "2026-03-02",
+    "note": "沿途天气不错。",
+    "segmentIds": ["seg_jh_04", "seg_jh_05"],
+    "createdAt": "2026-03-01T09:00:00.000Z",
+    "updatedAt": "2026-03-01T09:00:00.000Z"
+  },
+  {
+    "id": "trip_003",
+    "lineId": "line_huhang",
+    "fromStationId": "st_shanghaihq",
+    "toStationId": "st_hangzhoudong",
+    "trainNumber": "G7335",
+    "travelDate": "2026-03-17",
+    "note": "周末短途。",
+    "segmentIds": ["seg_hh_01"],
+    "createdAt": "2026-03-16T07:30:00.000Z",
+    "updatedAt": "2026-03-16T07:30:00.000Z"
+  },
+  {
+    "id": "trip_004",
+    "lineId": "line_guangshen",
+    "fromStationId": "st_shenzhennorth",
+    "toStationId": "st_guangzhounan",
+    "trainNumber": "G6218",
+    "travelDate": "2026-03-20",
+    "note": "返程。",
+    "segmentIds": ["seg_gs_01"],
+    "createdAt": "2026-03-20T12:00:00.000Z",
+    "updatedAt": "2026-03-20T12:00:00.000Z"
+  }
+]

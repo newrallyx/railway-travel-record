@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "seg_jh_01",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_beijingnan",
+    "toStationId": "st_langfang",
+    "sequence": 1,
+    "distanceKm": 60,
+    "coordinates": [[39.8652, 116.3788], [39.7000, 116.5200], [39.5095, 116.7166]]
+  },
+  {
+    "id": "seg_jh_02",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_langfang",
+    "toStationId": "st_tianjinnan",
+    "sequence": 2,
+    "distanceKm": 50,
+    "coordinates": [[39.5095, 116.7166], [39.2500, 116.9800], [39.0067, 117.1765]]
+  },
+  {
+    "id": "seg_jh_03",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_tianjinnan",
+    "toStationId": "st_jinanxi",
+    "sequence": 3,
+    "distanceKm": 285,
+    "coordinates": [[39.0067, 117.1765], [38.2000, 117.1000], [37.2000, 116.9800], [36.6512, 116.8850]]
+  },
+  {
+    "id": "seg_jh_04",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_jinanxi",
+    "toStationId": "st_xuzhoudong",
+    "sequence": 4,
+    "distanceKm": 240,
+    "coordinates": [[36.6512, 116.8850], [35.6000, 117.0000], [34.8000, 117.1800], [34.2665, 117.2906]]
+  },
+  {
+    "id": "seg_jh_05",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_xuzhoudong",
+    "toStationId": "st_nanjingnan",
+    "sequence": 5,
+    "distanceKm": 250,
+    "coordinates": [[34.2665, 117.2906], [33.5000, 117.6000], [32.7000, 118.2000], [31.9801, 118.7978]]
+  },
+  {
+    "id": "seg_jh_06",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_nanjingnan",
+    "toStationId": "st_changzhoubei",
+    "sequence": 6,
+    "distanceKm": 120,
+    "coordinates": [[31.9801, 118.7978], [31.9300, 119.2000], [31.8662, 119.9651]]
+  },
+  {
+    "id": "seg_jh_07",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_changzhoubei",
+    "toStationId": "st_suzhoubei",
+    "sequence": 7,
+    "distanceKm": 80,
+    "coordinates": [[31.8662, 119.9651], [31.7000, 120.3000], [31.4252, 120.6436]]
+  },
+  {
+    "id": "seg_jh_08",
+    "lineId": "line_jinghu",
+    "fromStationId": "st_suzhoubei",
+    "toStationId": "st_shanghaihq",
+    "sequence": 8,
+    "distanceKm": 60,
+    "coordinates": [[31.4252, 120.6436], [31.3300, 120.9500], [31.2004, 121.3277]]
+  },
+  {
+    "id": "seg_hh_01",
+    "lineId": "line_huhang",
+    "fromStationId": "st_shanghaihq",
+    "toStationId": "st_hangzhoudong",
+    "sequence": 1,
+    "distanceKm": 170,
+    "coordinates": [[31.2004, 121.3277], [30.9000, 121.1000], [30.5500, 120.6500], [30.2930, 120.2120]]
+  },
+  {
+    "id": "seg_gs_01",
+    "lineId": "line_guangshen",
+    "fromStationId": "st_guangzhounan",
+    "toStationId": "st_shenzhennorth",
+    "sequence": 1,
+    "distanceKm": 120,
+    "coordinates": [[22.9893, 113.2690], [22.8500, 113.6000], [22.7000, 113.9000], [22.6081, 114.0296]]
+  }
+]
