@@ -1,45 +1,49 @@
+export type RailType = 'hsr' | 'conventional';
+
 export interface Station {
   id: string;
   name: string;
-  city?: string;
+  aliases?: string[];
+  lng: number;
+  lat: number;
+}
+
+export interface RailwaySegment {
+  id: string;
+  fromStationId: string;
+  toStationId: string;
+  lineName: string;
+  railType: RailType;
+  distanceKm?: number;
+  geometry: [number, number][];
 }
 
 export interface RailwayLine {
   id: string;
   name: string;
-  code?: string;
-}
-
-export interface RailwaySegment {
-  id: string;
-  lineId: string;
-  fromStationId: string;
-  toStationId: string;
-  coordinates: [number, number][];
-  distanceKm?: number;
-  sequence: number;
-}
-
-export interface RailwayTripSegment {
-  id: string;
-  tripId: string;
-  lineId: string;
-  fromStationId: string;
-  toStationId: string;
-  trainNumber?: string;
-  travelDate?: string;
-  note?: string;
+  railType: RailType;
   segmentIds: string[];
 }
+
+export type RouteMode =
+  | 'auto'
+  | 'hsr_only'
+  | 'conventional_only'
+  | 'hsr_preferred'
+  | 'conventional_preferred';
 
 export interface RailwayTrip {
   id: string;
   title: string;
-  mode: 'manual' | 'preset';
+  inputMode: string;
+  fromStationId: string;
+  toStationId: string;
+  viaStationIds: string[];
+  routeMode: RouteMode;
   trainNumber?: string;
   travelDate?: string;
   note?: string;
-  tripSegments: RailwayTripSegment[];
+  routeResult?: unknown;
   createdAt: string;
   updatedAt: string;
 }
