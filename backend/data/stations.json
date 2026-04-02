@@ -1,16 +1,27 @@
 [
-  {"id":"beijingnan","name":"北京南","aliases":["北京南站"],"lng":116.385,"lat":39.865},
-  {"id":"tianjinnan","name":"天津南","aliases":["天津南站"],"lng":117.112,"lat":39.092},
-  {"id":"jinanxi","name":"济南西","aliases":["济南西站"],"lng":116.89,"lat":36.651},
-  {"id":"xuzhoudong","name":"徐州东","aliases":["徐州东站"],"lng":117.314,"lat":34.268},
-  {"id":"nanjingnan","name":"南京南","aliases":["南京南站"],"lng":118.796,"lat":31.968},
-  {"id":"suzhoubei","name":"苏州北","aliases":["苏州北站"],"lng":120.645,"lat":31.429},
-  {"id":"shanghaihongqiao","name":"上海虹桥","aliases":["虹桥站","上海虹桥站"],"lng":121.318,"lat":31.194},
-  {"id":"beijing","name":"北京","aliases":["北京站"],"lng":116.433,"lat":39.903},
-  {"id":"tianjin","name":"天津","aliases":["天津站"],"lng":117.208,"lat":39.142},
-  {"id":"jinan","name":"济南","aliases":["济南站"],"lng":117.004,"lat":36.664},
-  {"id":"xuzhou","name":"徐州","aliases":["徐州站"],"lng":117.196,"lat":34.269},
-  {"id":"nanjing","name":"南京","aliases":["南京站"],"lng":118.801,"lat":32.089},
-  {"id":"suzhou","name":"苏州","aliases":["苏州站"],"lng":120.609,"lat":31.334},
-  {"id":"shanghai","name":"上海","aliases":["上海站"],"lng":121.462,"lat":31.253}
+  {"id":"beijingnan","name":"北京南","aliases":["北京南站"],"lng":116.385,"lat":39.865,"city":"北京","province":"北京","stationLevel":"特等站","railTypes":["hsr"]},
+  {"id":"tianjinnan","name":"天津南","aliases":["天津南站"],"lng":117.112,"lat":39.092,"city":"天津","province":"天津","stationLevel":"一等站","railTypes":["hsr"]},
+  {"id":"jinanxi","name":"济南西","aliases":["济南西站"],"lng":116.89,"lat":36.651,"city":"济南","province":"山东","stationLevel":"特等站","railTypes":["hsr"]},
+  {"id":"xuzhoudong","name":"徐州东","aliases":["徐州东站"],"lng":117.314,"lat":34.268,"city":"徐州","province":"江苏","stationLevel":"一等站","railTypes":["hsr"]},
+  {"id":"nanjingnan","name":"南京南","aliases":["南京南站"],"lng":118.796,"lat":31.968,"city":"南京","province":"江苏","stationLevel":"特等站","railTypes":["hsr"]},
+  {"id":"suzhoubei","name":"苏州北","aliases":["苏州北站"],"lng":120.645,"lat":31.429,"city":"苏州","province":"江苏","stationLevel":"一等站","railTypes":["hsr"]},
+  {"id":"shanghaihongqiao","name":"上海虹桥","aliases":["虹桥站","上海虹桥站"],"lng":121.318,"lat":31.194,"city":"上海","province":"上海","stationLevel":"特等站","railTypes":["hsr"]},
+
+  {"id":"beijing","name":"北京","aliases":["北京站"],"lng":116.433,"lat":39.903,"city":"北京","province":"北京","stationLevel":"特等站","railTypes":["conventional"]},
+  {"id":"tianjin","name":"天津","aliases":["天津站"],"lng":117.208,"lat":39.142,"city":"天津","province":"天津","stationLevel":"特等站","railTypes":["conventional"]},
+  {"id":"jinan","name":"济南","aliases":["济南站"],"lng":117.004,"lat":36.664,"city":"济南","province":"山东","stationLevel":"特等站","railTypes":["conventional"]},
+  {"id":"xuzhou","name":"徐州","aliases":["徐州站"],"lng":117.196,"lat":34.269,"city":"徐州","province":"江苏","stationLevel":"一等站","railTypes":["conventional"]},
+  {"id":"nanjing","name":"南京","aliases":["南京站"],"lng":118.801,"lat":32.089,"city":"南京","province":"江苏","stationLevel":"特等站","railTypes":["conventional"]},
+  {"id":"suzhou","name":"苏州","aliases":["苏州站"],"lng":120.609,"lat":31.334,"city":"苏州","province":"江苏","stationLevel":"一等站","railTypes":["conventional"]},
+  {"id":"shanghai","name":"上海","aliases":["上海站"],"lng":121.462,"lat":31.253,"city":"上海","province":"上海","stationLevel":"特等站","railTypes":["conventional"]},
+
+  {"id":"xianbei","name":"西安北","aliases":["西安北站"],"lng":108.944,"lat":34.381,"city":"西安","province":"陕西","stationLevel":"特等站","railTypes":["hsr"]},
+  {"id":"weinanbei","name":"渭南北","aliases":["渭南北站"],"lng":109.488,"lat":34.55,"city":"渭南","province":"陕西","stationLevel":"二等站","railTypes":["hsr"]},
+  {"id":"huashanbei","name":"华山北","aliases":["华山北站"],"lng":110.089,"lat":34.575,"city":"渭南","province":"陕西","stationLevel":"二等站","railTypes":["hsr"]},
+  {"id":"luoyanglongmen","name":"洛阳龙门","aliases":["洛阳龙门站"],"lng":112.455,"lat":34.619,"city":"洛阳","province":"河南","stationLevel":"一等站","railTypes":["hsr"]},
+  {"id":"zhengzhoudong","name":"郑州东","aliases":["郑州东站"],"lng":113.79,"lat":34.755,"city":"郑州","province":"河南","stationLevel":"特等站","railTypes":["hsr"]},
+
+  {"id":"xian","name":"西安","aliases":["西安站"],"lng":108.96,"lat":34.273,"city":"西安","province":"陕西","stationLevel":"特等站","railTypes":["conventional"]},
+  {"id":"luoyang","name":"洛阳","aliases":["洛阳站"],"lng":112.44,"lat":34.687,"city":"洛阳","province":"河南","stationLevel":"一等站","railTypes":["conventional"]},
+  {"id":"zhengzhou","name":"郑州","aliases":["郑州站"],"lng":113.658,"lat":34.746,"city":"郑州","province":"河南","stationLevel":"特等站","railTypes":["conventional"]}
 ]

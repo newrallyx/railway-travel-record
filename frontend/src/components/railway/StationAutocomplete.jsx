@@ -20,7 +20,7 @@ export default function StationAutocomplete({
 
   useEffect(() => {
     const q = keyword.trim();
-    if (!q) {
+    if (!showPanel || !q) {
       setOptions([]);
       setHint('');
       return;
@@ -39,13 +39,13 @@ export default function StationAutocomplete({
       } finally {
         if (!disposed) setLoading(false);
       }
-    }, 220);
+    }, 280);
 
     return () => {
       disposed = true;
       clearTimeout(timer);
     };
-  }, [keyword, searchStations]);
+  }, [keyword, searchStations, showPanel]);
 
   return (
     <div className="field">
@@ -57,9 +57,7 @@ export default function StationAutocomplete({
         onBlur={() => setTimeout(() => setShowPanel(false), 140)}
         onChange={(event) => {
           setKeyword(event.target.value);
-          if (!event.target.value.trim()) {
-            onSelect(null);
-          }
+          if (!event.target.value.trim()) onSelect(null);
         }}
       />
       {error ? <small className="error-text">{error}</small> : null}
@@ -78,7 +76,7 @@ export default function StationAutocomplete({
               }}
             >
               <strong>{station.name}</strong>
-              {station.aliases?.length ? <span>{station.aliases.join(' / ')}</span> : null}
+              <span>{[station.city, station.province].filter(Boolean).join(' / ') || (station.aliases?.join(' / ') ?? '')}</span>
             </button>
           ))}
           {!loading && hint ? <div className="autocomplete-item muted">{hint}</div> : null}

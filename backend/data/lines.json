@@ -3,12 +3,32 @@
     "id": "beijing-shanghai-hsr",
     "name": "京沪高铁",
     "railType": "hsr",
+    "corridor": "京沪通道",
+    "operator": "中国铁路",
     "segmentIds": ["hsr-bj-tj","hsr-tj-jn","hsr-jn-xz","hsr-xz-nj","hsr-nj-sz","hsr-sz-sh"]
   },
   {
     "id": "beijing-shanghai-conventional",
     "name": "京沪线",
     "railType": "conventional",
+    "corridor": "华北-华东",
+    "operator": "中国铁路",
     "segmentIds": ["conv-bj-tj","conv-tj-jn","conv-jn-xz","conv-xz-nj","conv-nj-sz","conv-sz-sh"]
+  },
+  {
+    "id": "xuzheng-hsr",
+    "name": "徐兰高铁（西郑段）",
+    "railType": "hsr",
+    "corridor": "陆桥通道",
+    "operator": "中国铁路",
+    "segmentIds": ["hsr-xa-wn","hsr-wn-hs","hsr-hs-lylm","hsr-lylm-zzd"]
+  },
+  {
+    "id": "longhai-conventional",
+    "name": "陇海线（西郑段）",
+    "railType": "conventional",
+    "corridor": "陇海通道",
+    "operator": "中国铁路",
+    "segmentIds": ["conv-xa-ly","conv-ly-zz"]
   }
 ]

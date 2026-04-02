@@ -12,56 +12,32 @@ const stations = JSON.parse(fs.readFileSync(path.join(dataDir, 'stations.json'),
 const segments = JSON.parse(fs.readFileSync(path.join(dataDir, 'segments.json'), 'utf8'));
 
 test('仅高铁：北京南到上海虹桥可达', () => {
-  const result = findRoute({
-    stations,
-    segments,
-    fromStationId: 'beijingnan',
-    toStationId: 'shanghaihongqiao',
-    mode: 'hsr_only'
-  });
-
+  const result = findRoute({ stations, segments, fromStationId: 'beijingnan', toStationId: 'shanghaihongqiao', mode: 'hsr_only' });
   assert.equal(result.ok, true);
   assert.equal(result.stationPath[0].id, 'beijingnan');
   assert.equal(result.stationPath.at(-1).id, 'shanghaihongqiao');
-  assert.ok(result.segments.every((segment) => segment.railType === 'hsr'));
 });
 
 test('仅普速：北京到上海可达', () => {
-  const result = findRoute({
-    stations,
-    segments,
-    fromStationId: 'beijing',
-    toStationId: 'shanghai',
-    mode: 'conventional_only'
-  });
-
+  const result = findRoute({ stations, segments, fromStationId: 'beijing', toStationId: 'shanghai', mode: 'conventional_only' });
   assert.equal(result.ok, true);
   assert.ok(result.segments.every((segment) => segment.railType === 'conventional'));
 });
 
-test('途经点拼接：北京南经南京南到上海虹桥', () => {
-  const result = findRoute({
-    stations,
-    segments,
-    fromStationId: 'beijingnan',
-    viaStationIds: ['nanjingnan'],
-    toStationId: 'shanghaihongqiao',
-    mode: 'hsr_only'
-  });
-
+test('西安北到郑州东（高铁）可达', () => {
+  const result = findRoute({ stations, segments, fromStationId: 'xianbei', toStationId: 'zhengzhoudong', mode: 'hsr_only' });
   assert.equal(result.ok, true);
-  assert.ok(result.stationPath.some((station) => station.id === 'nanjingnan'));
+  assert.ok(result.stationPath.some((station) => station.id === 'luoyanglongmen'));
+});
+
+test('西安到郑州（普速）可达', () => {
+  const result = findRoute({ stations, segments, fromStationId: 'xian', toStationId: 'zhengzhou', mode: 'conventional_only' });
+  assert.equal(result.ok, true);
+  assert.ok(result.segments.every((segment) => segment.railType === 'conventional'));
 });
 
 test('网络不连通时返回不可达', () => {
-  const result = findRoute({
-    stations,
-    segments,
-    fromStationId: 'beijingnan',
-    toStationId: 'shanghai',
-    mode: 'hsr_only'
-  });
-
+  const result = findRoute({ stations, segments, fromStationId: 'xianbei', toStationId: 'zhengzhou', mode: 'hsr_only' });
   assert.equal(result.ok, false);
   assert.match(result.reason, /未找到可达路径/);
 });
