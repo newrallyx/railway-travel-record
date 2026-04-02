@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "id": "hsr-bj-tj",
+    "fromStationId": "beijingnan",
+    "toStationId": "tianjinnan",
+    "lineName": "京沪高铁",
+    "railType": "hsr",
+    "distanceKm": 120,
+    "geometry": [[116.385,39.865],[117.112,39.092]]
+  },
+  {
+    "id": "hsr-tj-jn",
+    "fromStationId": "tianjinnan",
+    "toStationId": "jinanxi",
+    "lineName": "京沪高铁",
+    "railType": "hsr",
+    "distanceKm": 290,
+    "geometry": [[117.112,39.092],[116.89,36.651]]
+  },
+  {
+    "id": "hsr-jn-xz",
+    "fromStationId": "jinanxi",
+    "toStationId": "xuzhoudong",
+    "lineName": "京沪高铁",
+    "railType": "hsr",
+    "distanceKm": 230,
+    "geometry": [[116.89,36.651],[117.314,34.268]]
+  },
+  {
+    "id": "hsr-xz-nj",
+    "fromStationId": "xuzhoudong",
+    "toStationId": "nanjingnan",
+    "lineName": "京沪高铁",
+    "railType": "hsr",
+    "distanceKm": 250,
+    "geometry": [[117.314,34.268],[118.796,31.968]]
+  },
+  {
+    "id": "hsr-nj-sz",
+    "fromStationId": "nanjingnan",
+    "toStationId": "suzhoubei",
+    "lineName": "京沪高铁",
+    "railType": "hsr",
+    "distanceKm": 210,
+    "geometry": [[118.796,31.968],[120.645,31.429]]
+  },
+  {
+    "id": "hsr-sz-sh",
+    "fromStationId": "suzhoubei",
+    "toStationId": "shanghaihongqiao",
+    "lineName": "京沪高铁",
+    "railType": "hsr",
+    "distanceKm": 85,
+    "geometry": [[120.645,31.429],[121.318,31.194]]
+  },
+  {
+    "id": "conv-bj-tj",
+    "fromStationId": "beijing",
+    "toStationId": "tianjin",
+    "lineName": "京沪线",
+    "railType": "conventional",
+    "distanceKm": 137,
+    "geometry": [[116.433,39.903],[117.208,39.142]]
+  },
+  {
+    "id": "conv-tj-jn",
+    "fromStationId": "tianjin",
+    "toStationId": "jinan",
+    "lineName": "京沪线",
+    "railType": "conventional",
+    "distanceKm": 357,
+    "geometry": [[117.208,39.142],[117.004,36.664]]
+  },
+  {
+    "id": "conv-jn-xz",
+    "fromStationId": "jinan",
+    "toStationId": "xuzhou",
+    "lineName": "京沪线",
+    "railType": "conventional",
+    "distanceKm": 326,
+    "geometry": [[117.004,36.664],[117.196,34.269]]
+  },
+  {
+    "id": "conv-xz-nj",
+    "fromStationId": "xuzhou",
+    "toStationId": "nanjing",
+    "lineName": "京沪线",
+    "railType": "conventional",
+    "distanceKm": 349,
+    "geometry": [[117.196,34.269],[118.801,32.089]]
+  },
+  {
+    "id": "conv-nj-sz",
+    "fromStationId": "nanjing",
+    "toStationId": "suzhou",
+    "lineName": "京沪线",
+    "railType": "conventional",
+    "distanceKm": 217,
+    "geometry": [[118.801,32.089],[120.609,31.334]]
+  },
+  {
+    "id": "conv-sz-sh",
+    "fromStationId": "suzhou",
+    "toStationId": "shanghai",
+    "lineName": "京沪线",
+    "railType": "conventional",
+    "distanceKm": 84,
+    "geometry": [[120.609,31.334],[121.462,31.253]]
+  }
+]

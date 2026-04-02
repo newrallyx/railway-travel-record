@@ -1,1 +1,16 @@
-[]
+[
+  {"id":"beijingnan","name":"北京南","aliases":["北京南站"],"lng":116.385,"lat":39.865},
+  {"id":"tianjinnan","name":"天津南","aliases":["天津南站"],"lng":117.112,"lat":39.092},
+  {"id":"jinanxi","name":"济南西","aliases":["济南西站"],"lng":116.89,"lat":36.651},
+  {"id":"xuzhoudong","name":"徐州东","aliases":["徐州东站"],"lng":117.314,"lat":34.268},
+  {"id":"nanjingnan","name":"南京南","aliases":["南京南站"],"lng":118.796,"lat":31.968},
+  {"id":"suzhoubei","name":"苏州北","aliases":["苏州北站"],"lng":120.645,"lat":31.429},
+  {"id":"shanghaihongqiao","name":"上海虹桥","aliases":["虹桥站","上海虹桥站"],"lng":121.318,"lat":31.194},
+  {"id":"beijing","name":"北京","aliases":["北京站"],"lng":116.433,"lat":39.903},
+  {"id":"tianjin","name":"天津","aliases":["天津站"],"lng":117.208,"lat":39.142},
+  {"id":"jinan","name":"济南","aliases":["济南站"],"lng":117.004,"lat":36.664},
+  {"id":"xuzhou","name":"徐州","aliases":["徐州站"],"lng":117.196,"lat":34.269},
+  {"id":"nanjing","name":"南京","aliases":["南京站"],"lng":118.801,"lat":32.089},
+  {"id":"suzhou","name":"苏州","aliases":["苏州站"],"lng":120.609,"lat":31.334},
+  {"id":"shanghai","name":"上海","aliases":["上海站"],"lng":121.462,"lat":31.253}
+]
