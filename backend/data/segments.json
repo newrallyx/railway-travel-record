@@ -1,1 +1,23 @@
-[]
+[
+  {"id":"hsr-bj-tj","lineId":"beijing-shanghai-hsr","fromStationId":"beijingnan","toStationId":"tianjinnan","lineName":"京沪高铁","railType":"hsr","distanceKm":120,"geometry":[[116.385,39.865],[117.112,39.092]]},
+  {"id":"hsr-tj-jn","lineId":"beijing-shanghai-hsr","fromStationId":"tianjinnan","toStationId":"jinanxi","lineName":"京沪高铁","railType":"hsr","distanceKm":290,"geometry":[[117.112,39.092],[116.89,36.651]]},
+  {"id":"hsr-jn-xz","lineId":"beijing-shanghai-hsr","fromStationId":"jinanxi","toStationId":"xuzhoudong","lineName":"京沪高铁","railType":"hsr","distanceKm":230,"geometry":[[116.89,36.651],[117.314,34.268]]},
+  {"id":"hsr-xz-nj","lineId":"beijing-shanghai-hsr","fromStationId":"xuzhoudong","toStationId":"nanjingnan","lineName":"京沪高铁","railType":"hsr","distanceKm":250,"geometry":[[117.314,34.268],[118.796,31.968]]},
+  {"id":"hsr-nj-sz","lineId":"beijing-shanghai-hsr","fromStationId":"nanjingnan","toStationId":"suzhoubei","lineName":"京沪高铁","railType":"hsr","distanceKm":210,"geometry":[[118.796,31.968],[120.645,31.429]]},
+  {"id":"hsr-sz-sh","lineId":"beijing-shanghai-hsr","fromStationId":"suzhoubei","toStationId":"shanghaihongqiao","lineName":"京沪高铁","railType":"hsr","distanceKm":85,"geometry":[[120.645,31.429],[121.318,31.194]]},
+
+  {"id":"conv-bj-tj","lineId":"beijing-shanghai-conventional","fromStationId":"beijing","toStationId":"tianjin","lineName":"京沪线","railType":"conventional","distanceKm":137,"geometry":[[116.433,39.903],[117.208,39.142]]},
+  {"id":"conv-tj-jn","lineId":"beijing-shanghai-conventional","fromStationId":"tianjin","toStationId":"jinan","lineName":"京沪线","railType":"conventional","distanceKm":357,"geometry":[[117.208,39.142],[117.004,36.664]]},
+  {"id":"conv-jn-xz","lineId":"beijing-shanghai-conventional","fromStationId":"jinan","toStationId":"xuzhou","lineName":"京沪线","railType":"conventional","distanceKm":326,"geometry":[[117.004,36.664],[117.196,34.269]]},
+  {"id":"conv-xz-nj","lineId":"beijing-shanghai-conventional","fromStationId":"xuzhou","toStationId":"nanjing","lineName":"京沪线","railType":"conventional","distanceKm":349,"geometry":[[117.196,34.269],[118.801,32.089]]},
+  {"id":"conv-nj-sz","lineId":"beijing-shanghai-conventional","fromStationId":"nanjing","toStationId":"suzhou","lineName":"京沪线","railType":"conventional","distanceKm":217,"geometry":[[118.801,32.089],[120.609,31.334]]},
+  {"id":"conv-sz-sh","lineId":"beijing-shanghai-conventional","fromStationId":"suzhou","toStationId":"shanghai","lineName":"京沪线","railType":"conventional","distanceKm":84,"geometry":[[120.609,31.334],[121.462,31.253]]},
+
+  {"id":"hsr-xa-wn","lineId":"xuzheng-hsr","fromStationId":"xianbei","toStationId":"weinanbei","lineName":"徐兰高铁","railType":"hsr","distanceKm":60,"geometry":[[108.944,34.381],[109.488,34.55]]},
+  {"id":"hsr-wn-hs","lineId":"xuzheng-hsr","fromStationId":"weinanbei","toStationId":"huashanbei","lineName":"徐兰高铁","railType":"hsr","distanceKm":70,"geometry":[[109.488,34.55],[110.089,34.575]]},
+  {"id":"hsr-hs-lylm","lineId":"xuzheng-hsr","fromStationId":"huashanbei","toStationId":"luoyanglongmen","lineName":"徐兰高铁","railType":"hsr","distanceKm":180,"geometry":[[110.089,34.575],[112.455,34.619]]},
+  {"id":"hsr-lylm-zzd","lineId":"xuzheng-hsr","fromStationId":"luoyanglongmen","toStationId":"zhengzhoudong","lineName":"徐兰高铁","railType":"hsr","distanceKm":125,"geometry":[[112.455,34.619],[113.79,34.755]]},
+
+  {"id":"conv-xa-ly","lineId":"longhai-conventional","fromStationId":"xian","toStationId":"luoyang","lineName":"陇海线","railType":"conventional","distanceKm":387,"geometry":[[108.96,34.273],[112.44,34.687]]},
+  {"id":"conv-ly-zz","lineId":"longhai-conventional","fromStationId":"luoyang","toStationId":"zhengzhou","lineName":"陇海线","railType":"conventional","distanceKm":124,"geometry":[[112.44,34.687],[113.658,34.746]]}
+]
